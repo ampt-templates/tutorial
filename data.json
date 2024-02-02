@@ -1,0 +1,38 @@
+[
+  {
+    "key": "todo:1",
+    "value": {
+      "id": "1",
+      "name": "Complete the Ampt tutorial",
+      "status": "incomplete",
+      "description": "Complete the Ampt tutorial in the CLI"
+    }
+  },
+  {
+    "key": "todo:2",
+    "value": {
+      "id": "2",
+      "name": "Check out the Ampt docs",
+      "description": "Visit Ampt's website and read the docs at https://getampt.com/docs",
+      "status": "incomplete"
+    }
+  },
+  {
+    "key": "todo:3",
+    "value": {
+      "id": "3",
+      "name": "Uncomment the request logger on line 30 of api/index.ts",
+      "description": "With Ampt, changes are synced instantly to your sandbox, and live logs are displayed in the Ampt shell. Uncomment the request logger to see it in action.",
+      "status": "incomplete"
+    }
+  },
+  {
+    "key": "todo:4",
+    "value": {
+      "id": "4",
+      "name": "Import test data using the Ampt CLI",
+      "description": "Use the import command to load in test data into @ampt/data",
+      "status": "complete"
+    }
+  }
+]
