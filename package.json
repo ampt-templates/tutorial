@@ -2,28 +2,26 @@
   "name": "ampt-tutorial",
   "version": "1.0.0",
   "description": "Ampt Starter Tutorial",
+  "main": "api/index.ts",
   "private": true,
-  "main": "index.tsx",
   "type": "module",
   "scripts": {
-    "test": "vitest run *.test.ts",
-    "ampt:test": "npm run test",
-    "start": "ampt"
+    "dev": "vite",
+    "ampt:dev": "vite",
+    "ampt:build": "vite build",
+    "gitpod:ampt": "./node_modules/.bin/ampt"
+  },
+  "ampt": {
+    "app": "",
+    "org": ""
   },
   "dependencies": {
     "@ampt/data": "^1.0.18",
     "@ampt/sdk": "^1.0.14",
     "hono": "^3"
   },
-  "ampt": {
-    "app": "",
-    "org": ""
-  },
   "devDependencies": {
     "@types/node": "^20.11.16",
     "vitest": "^1.2.2"
-  },
-  "files": [
-    "*"
-  ]
+  }
 }
