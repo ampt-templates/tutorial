@@ -2,7 +2,7 @@
   "name": "ampt-tutorial",
   "version": "1.0.0",
   "description": "Ampt Starter Tutorial",
-  "main": "api/index.ts",
+  "main": "index.tsx",
   "private": true,
   "type": "module",
   "scripts": {
