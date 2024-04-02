@@ -6,7 +6,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "ampt:test": "vitest",
+    "ampt:test": "vitest run --reporter default",
     "gitpod:ampt": "./node_modules/.bin/ampt"
   },
   "ampt": {
