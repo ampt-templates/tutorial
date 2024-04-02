@@ -6,9 +6,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "ampt:dev": "vite",
-    "ampt:build": "vite build",
+    "ampt:test": "vitest",
     "gitpod:ampt": "./node_modules/.bin/ampt"
   },
   "ampt": {
